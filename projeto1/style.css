@@ -30,11 +30,56 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   background: linear-gradient(135deg, #c4b4b4c4, #a7a7a746);
-   color: #111;
+   background: linear-gradient(135deg, #667eea, #b491d6);
+   color: white;
    text-align: center;
 }
 
 button {
-    
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
+
+.projects {
+    padding: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (200px, 1 gap 20px));
+}
+
+.card {
+    background: #f4f4f4;
+}
+
+.contact {
+    padding: 40px;
+    background: #eee;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
