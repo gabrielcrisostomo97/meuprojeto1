@@ -32,4 +32,4 @@ Em breve publicado no GitHub Pages.
 ---
 
 
-Desenvolvido por Gabriel 🚀
+Desenvolvido por Gabriel Crisóstomo🚀
