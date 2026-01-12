@@ -40,6 +40,13 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #ddd;
+    transform: scale(1.05);
 }
 
 .projects {
@@ -53,11 +60,21 @@ button {
 
 .card {
     background: #f4f4f4;
+    padding: 40px;
+
 }
 
 .contact {
     padding: 40px;
     background: #eee;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgb(0,0,0,0.15);
 }
 
 .contact form {
