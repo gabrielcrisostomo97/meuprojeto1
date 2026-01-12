@@ -22,7 +22,7 @@ Demonstrar habilidades fundamentais de desenvolvimento front-end para oportunida
 
 
 ## 📸 Preview
-(Adicione aqui um print do projeto)
+
 
 
 ## 🔗 Acesso ao Projeto
