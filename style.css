@@ -25,14 +25,36 @@ body {
     text-decoration: none;
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
 .hero {
-   height: 90vh;
+    position: relative;
+}
+
+.hero {
+   height: 100vh;
+   background-image: url("https://imagens.unsplash.com/photo-1518770660439-4636190af475") ;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+
+   
    display: flex;
    justify-content: center;
    align-items: center;
    background: linear-gradient(135deg, #667eea, #b491d6);
    color: white;
    text-align: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
 }
 
 button {
@@ -59,14 +81,14 @@ button:hover {
 }
 
 .card {
-    background: #f4f4f4;
+    background: #b491d6;
     padding: 40px;
-
+    margin: 10px;
 }
 
 .contact {
     padding: 40px;
-    background: #eee;
+    background: rgba(0,0,0,0.15);
     text-align: center;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
